@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+   float: right;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(sea.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.header img{
+    width: 170px;
+    float: left;
+    color: #fff;
+    margin-top: 5% ;
+    margin-left: -200px;
+}
+.login-btn{
+    width: 100px;
+    font-size: 20px;
+    padding: 10px 20px;
+    float: right;
+    margin-top: 5%;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 30px;
+   color: #fff;
+   outline: none !important;
+}
+.header h1{
+  padding-top: 300px;
+  padding-bottom: 0;
+  font-size: 55px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+.header p{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+.input-group{
+    width: 90%;
+    max-width: 500px;
+border-radius: 30px;
+margin: auto;
+padding: 2px;
+
+}
+.form-control{
+    border: 0!important;
+    border-radius: 30px!important;
+    margin: 2px;
+    box-shadow: none !important;
+    position: relative;
+}
+.input-group-text{
+   width: 100px;
+   height: 35px;
+   background:transparent;
+   border: 0!important;
+   color: #fff;
+   padding: 0 25px;
+   box-shadow: none;
+   position: absolute;
+   border-radius: 20px;
+   top: 3px;
+   margin-left: 10px;
+}
+.features{
+ padding: 100px 0;
+}
+h1{
+    text-align: center;
+    padding-bottom:30px;
+}
+
+.price{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ff5722;
+    color: #fff;
+   text-align: center;
+   padding: 10px;
+   box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+   position: absolute;
+   left: 20px;
+   bottom: -30px;
+}
+.feature-image{
+    position: relative;
+}
+.feature-image img{
+    width: 100%;
+}
+.rating{
+    position: absolute;
+    right: 1px;
+    background-color: #efefef;
+    bottom: 0px;
+    font-size: 20px;
+}
+.rating i{
+    color: #ff5722;
+}
+.feature-details{
+    margin-top: 50px;
+    text-align: justify;
+    padding: 10px;
+  
+}
+.feature-details h4{
+  font-weight: 500;
+}
+.feature-details .fas,.far{
+    color: #ff5722;
+  
+}
+.feture-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+.feature-details span{
+    margin-bottom: 20px;
+}
+.image2{
+    height: 441px;
+}
+.image3{
+    height: 440px;
+}
+/* Gallery */
+.gallery{
+  padding: 100px 0;
+    background-color:#efefef ;
+
+}
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.gallery-box img{
+    width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform .3s;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+display: block;
+color: #fff;
+font-weight: bold;
+position: absolute;
+top: 50%;
+right: 50%;
+font-size: 20px;
+transform: translate(50%);
+text-shadow:-2px 2px 2px #000;
+}
+.img1{
+    height:170px;
+}
+.img2{
+    height: 170px;
+}
+.banner{
+    height: 80vh;
+    background-image: url(images/pexels-asad-photo-maldives-1450360.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    padding-top: 10%;
+}
+.banner-highlight{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 40%;
+    background-color:rgba(0,0,0,0.7) ;
+    text-align: center;
+}
+.booking-btn{
+    width: 100px;
+    font-size: 14px;
+    padding: 10px 10px;
+    float: right;
+    margin-top: 20%;
+    margin-right: 10%;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 30px;
+   color: #fff;
+   outline: none !important;
+   transition: background-color .4s;
+}
+.banner-text{
+   margin-top: 10%;
+   
+}
+.banner-text h1{
+    margin-bottom: -20px;
+}
+.booking-btn:hover{
+    background-color:#ff5722;
+}
+.user-feedback{
+    padding: 100px 0; 
+}
+.user-review{
+    box-shadow:0 0 10px 1px rgba(37,73,214,0.18);
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.user-review p{
+   padding: 50px 20px 50px 20px;  
+}
+.user-feedback .person1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+.user-review p::before{
+    content: "\201d";
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    top: -5%;
+    right: 44%;
+}
+.footer{
+   padding: 100px 20px;
+    color: #fff;
+    background:linear-gradient(#2d557d,#9610fb);
+}
+.footer1{
+   width: 200px;
+   margin-bottom: 20px;
+}
+
+.footer h3{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 25px;
+}
+.footer i{
+    font-size: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
+.line{
+    border: 1px dotted white;
+    width: 100%;
+}
+.final{
+  margin-left: 40%;    
+}
+.final i{
+    color: red;
+}
